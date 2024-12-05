@@ -5,6 +5,7 @@ import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 
 import "./globals.css";
+import { Hero } from "@/components/hero";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,7 +23,8 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={`bg-gray-200 text-gray-800 ${inter.className}`}>
-				<div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-12">
+				<div className="max-w-8xl relative mx-auto px-4 sm:px-6 lg:px-12">
+					<Hero />
 					<Header />
 
 					<main className="py-8">{children}</main>
