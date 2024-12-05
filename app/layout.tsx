@@ -22,12 +22,13 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={`bg-gray-200 text-gray-800 ${inter.className}`}>
-				<div className="max-w-8xl relative mx-auto px-4 sm:px-6 lg:px-12">
+			<body className={`bg-gray-900 ${inter.className}`}>
+				<div className="max-w-8xl mx-autopx-4 relative sm:px-6 lg:px-12">
 					<Hero />
+
 					<Header />
 
-					<main className="py-8">{children}</main>
+					<main className="pb-8 pt-[600px]">{children}</main>
 
 					<Footer />
 				</div>
