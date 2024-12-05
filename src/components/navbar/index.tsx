@@ -1,4 +1,4 @@
-import { ActiveLink } from "@/components/active-link";
+import { ActiveLink } from "@/components/design-system/active-link";
 import { Route } from "next";
 
 type NavLink = {

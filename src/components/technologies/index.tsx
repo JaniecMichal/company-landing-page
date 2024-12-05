@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { SectionLayout } from "../section-layout/layout";
+import { SectionLayout } from "../design-system/section-layout/layout";
 
 import { technologies } from "./data";
 

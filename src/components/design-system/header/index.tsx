@@ -1,5 +1,5 @@
-import { Navbar } from "../navbar";
-import { Socials } from "../socials";
+import { Navbar } from "../../navbar";
+import { Socials } from "../../socials";
 
 export const Header = () => {
 	return (

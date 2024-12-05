@@ -1,4 +1,4 @@
-import { SectionLayout } from "../section-layout/layout";
+import { SectionLayout } from "../design-system/section-layout/layout";
 import { reasons } from "./data";
 
 export const WhyUs = () => {

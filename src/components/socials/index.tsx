@@ -1,13 +1,13 @@
-import { Github, LinkedinIcon } from "lucide-react";
+import { SiGithub, SiLinkedin } from "react-icons/si";
 
 export const Socials = () => {
 	return (
-		<section className="flex space-x-4">
+		<section className="z-10 flex space-x-4">
 			<a href="#">
-				<LinkedinIcon className="h-6 w-6 text-gray-600 hover:text-blue-500" />
+				<SiLinkedin className="h-6 w-6 text-gray-200 hover:text-blue-500" />
 			</a>
 			<a href="#">
-				<Github className="h-6 w-6 text-gray-600 hover:text-blue-500" />
+				<SiGithub className="h-6 w-6 text-gray-200 hover:text-blue-500" />
 			</a>
 		</section>
 	);
