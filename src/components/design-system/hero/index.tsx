@@ -1,3 +1,4 @@
+import { CodeAnimation } from "../code-animation";
 import { MainHeading, SubHeading } from "../headings";
 import { Highlight } from "../highlight";
 
@@ -20,6 +21,8 @@ export const Hero = () => {
 					text="We helping transforming your idea in to amazing applications "
 					color="text-slate-200"
 				/>
+
+				<CodeAnimation />
 			</div>
 		</div>
 	);
