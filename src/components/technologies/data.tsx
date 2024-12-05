@@ -1,0 +1,38 @@
+import {
+	SiPython,
+	SiDjango,
+	SiReact,
+	SiSass,
+	SiNextdotjs,
+	SiGit,
+	SiDocker,
+	SiLinux,
+	SiTailwindcss,
+	SiMysql,
+	SiRedux,
+	SiJavascript,
+	SiTypescript,
+	SiMaterialdesign,
+	SiExpo,
+} from "react-icons/si";
+import { FaBrain } from "react-icons/fa"; // Ikona dla AI
+
+export const technologies = [
+	{ icon: <SiPython />, name: "Python" },
+	{ icon: <SiDjango />, name: "Django" },
+	{ icon: <SiReact />, name: "React" },
+	{ icon: <SiSass />, name: "Sass" },
+	{ icon: <SiNextdotjs />, name: "Next.js" },
+	{ icon: <SiGit />, name: "Git" },
+	{ icon: <SiDocker />, name: "Docker" },
+	{ icon: <SiLinux />, name: "Linux" },
+	{ icon: <SiTailwindcss />, name: "Tailwind CSS" },
+	{ icon: <SiMaterialdesign />, name: "Material-UI" },
+	{ icon: <SiMysql />, name: "MySQL" },
+	{ icon: <SiRedux />, name: "Redux" },
+	{ icon: <FaBrain />, name: "AI" },
+	{ icon: <SiJavascript />, name: "JavaScript" },
+	{ icon: <SiTypescript />, name: "TypeScript" },
+	{ icon: <SiReact />, name: "React Native" },
+	{ icon: <SiExpo />, name: "Expo" },
+];
