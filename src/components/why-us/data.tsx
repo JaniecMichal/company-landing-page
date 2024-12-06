@@ -2,6 +2,7 @@ import {
 	AdjustmentsHorizontalIcon,
 	ChartBarSquareIcon,
 	ChatBubbleBottomCenterTextIcon,
+	CubeTransparentIcon,
 	LifebuoyIcon,
 } from "@heroicons/react/24/outline";
 import { SparklesIcon } from "lucide-react";
@@ -37,4 +38,10 @@ export const reasons = [
 			"We believe in transparency and open communication. We keep you informed throughout the process, ensuring that you're always in the loop and involved in key decisions.",
 		icon: <ChatBubbleBottomCenterTextIcon className="h-12 w-12 text-blue-500" />,
 	},
-];
+	{
+		title: "Proven Expertise, Diverse Projects",
+		description:
+			"We bring a wealth of experience from both large-scale and small-scale projects. This diverse background allows us to write high-quality, robust code that is both error-resistant and easily scalable for future development.",
+		icon: <CubeTransparentIcon className="h-8 w-8 text-blue-500" />,
+	},
+] as const;
