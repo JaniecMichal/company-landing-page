@@ -1,5 +1,6 @@
 import { Projects } from "@/components/projects";
 import { Services } from "@/components/services";
+import { Team } from "@/components/team";
 import { Technologies } from "@/components/technologies";
 import { WhyUs } from "@/components/why-us";
 
@@ -10,6 +11,7 @@ export default async function Home() {
 			<Technologies />
 			<WhyUs />
 			<Projects />
+			<Team />
 		</section>
 	);
 }
