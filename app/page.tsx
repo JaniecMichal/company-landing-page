@@ -1,3 +1,4 @@
+import { Contact } from "@/components/contact";
 import { Projects } from "@/components/projects";
 import { Services } from "@/components/services";
 import { Team } from "@/components/team";
@@ -12,6 +13,7 @@ export default async function Home() {
 			<WhyUs />
 			<Projects />
 			<Team />
+			<Contact />
 		</section>
 	);
 }
