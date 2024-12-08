@@ -4,7 +4,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useEffect, useState } from "react";
 
 const code = `
-   Ready to turn your dreams into a tangible product? We're here to help.
+   Ready to turn your dreams into a tangible product?. Let's talk about details.
 `;
 
 export const CodeAnimation = () => {
@@ -19,7 +19,7 @@ export const CodeAnimation = () => {
 			if (currentIndex > code.length) {
 				clearInterval(interval);
 			}
-		}, 50); // Szybkość pisania
+		}, 150);
 
 		return () => clearInterval(interval);
 	}, []);
@@ -42,7 +42,7 @@ export const CodeAnimation = () => {
 			<div className="px-4 py-3 font-mono text-sm leading-6">
 				<motion.div animate={controls}>
 					<span className="text-gray-600">{displayedCode}</span>
-					<span className="animate-blink inline-block h-5 w-1.5 bg-blue-500" /> {/* Kursor */}
+					<span className="animate-blink inline-block h-4 w-1.5 bg-blue-500" /> {/* Kursor */}
 				</motion.div>
 			</div>
 		</div>
